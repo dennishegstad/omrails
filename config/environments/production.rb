@@ -69,7 +69,6 @@ Omrails::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Configure amazon s3 for paperclip file uploads
-  # config/environments/production.rb
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
